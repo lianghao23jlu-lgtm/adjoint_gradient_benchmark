@@ -1,0 +1,93 @@
+{
+  "benchmark_name": "GeoEMFEM 3D CSEM Adjoint Gradient & Forward Precision Benchmark",
+  "mesh_origin": "Invtest/test.mph (User Refined Mesh with Receiver Size Control)",
+  "tetrahedra_count": 225241,
+  "vertices_count": 37924,
+  "edges_count": 263932,
+  "faces_count": 451250,
+  "inversion_parameters_n_inv": 110453,
+  "transmitter": {
+    "type": "Grounded wire line source",
+    "length_m": 200.0,
+    "x_coords_m": -350.0,
+    "y_range_m": [
+      -100.0,
+      100.0
+    ],
+    "z_m": 0.0,
+    "current_A": 1.0
+  },
+  "anomaly": {
+    "dimensions_m": [
+      100.0,
+      100.0,
+      50.0
+    ],
+    "center_m": [
+      0.0,
+      0.0,
+      50.0
+    ],
+    "x_range_m": [
+      -50.0,
+      50.0
+    ],
+    "y_range_m": [
+      -50.0,
+      50.0
+    ],
+    "z_range_m": [
+      25.0,
+      75.0
+    ],
+    "conductivity_S_per_m": 0.1,
+    "resistivity_ohm_m": 10.0
+  },
+  "model_type": "Whole Space (全空间模型, 无空气层)",
+  "background": {
+    "conductivity_S_per_m": 0.01,
+    "resistivity_ohm_m": 100.0
+  },
+  "frequencies_Hz": [
+    100.0,
+    1000.0
+  ],
+  "receivers": {
+    "count": 81,
+    "grid": "9 x 9",
+    "x_range_m": [
+      -80.0,
+      80.0
+    ],
+    "y_range_m": [
+      -80.0,
+      80.0
+    ],
+    "spacing_m": 20.0,
+    "z_m": 0.0
+  },
+  "accuracy_summary_Ey": {
+    "100Hz": {
+      "with_anomaly_mean_amp_error_vs_comsol_ord1_pct": 0.0,
+      "with_anomaly_mean_amp_error_vs_comsol_ord2_pct": 1.17,
+      "without_anomaly_mean_amp_error_vs_comsol_ord1_pct": 0.0,
+      "without_anomaly_mean_amp_error_vs_comsol_ord2_pct": 1.06,
+      "phase_diff_vs_comsol_ord2_deg": 0.11
+    },
+    "1000Hz": {
+      "with_anomaly_mean_amp_error_vs_comsol_ord1_pct": 0.0,
+      "with_anomaly_mean_amp_error_vs_comsol_ord2_pct": 1.05,
+      "without_anomaly_mean_amp_error_vs_comsol_ord1_pct": 0.0,
+      "without_anomaly_mean_amp_error_vs_comsol_ord2_pct": 0.96,
+      "phase_diff_vs_comsol_ord2_deg": 0.27
+    }
+  },
+  "taylor_test_summary": {
+    "inversion_dimension": 110453,
+    "order": "O(h^2) quadratic convergence down to 2.48e-8 at h=1e-4",
+    "step_h_1e-1_rel_err": 0.0010499,
+    "step_h_1e-2_rel_err": 1.0499e-05,
+    "step_h_1e-3_rel_err": 1.0771e-07,
+    "step_h_1e-4_rel_err": 2.4842e-08
+  }
+}

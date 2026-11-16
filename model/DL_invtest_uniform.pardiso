@@ -1,0 +1,2835 @@
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                  98
+ -- (16) Numerical memory required (MB, est.)  =                  98
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.4710
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                  98
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.9380
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0760
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0720
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3710
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              1.0250
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0730
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0760
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3740
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              1.0290
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0700
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0750
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3760
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8640
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3720
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8850
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0730
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0710
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3750
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.9600
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.1080
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0700
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3830
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.9000
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3720
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              1.0100
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0740
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3650
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8970
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3660
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.9620
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0720
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3570
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0710
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3640
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8920
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0800
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0770
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3740
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7820
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3580
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7950
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0600
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0600
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3610
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.9300
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0620
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3620
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8920
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0710
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0700
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3550
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8800
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3620
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7210
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.9040
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3650
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0700
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0590
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3580
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8970
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3620
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8460
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0700
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.1160
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3680
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8510
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3590
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8160
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3650
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0630
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0620
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3560
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8890
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0710
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0710
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3640
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8920
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3600
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3670
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7800
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0590
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0620
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3880
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3740
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3610
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8620
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7610
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0700
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3680
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8480
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8750
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3540
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8350
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8160
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3670
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8850
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3710
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8380
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0600
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0590
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3520
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8640
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3580
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8340
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8930
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3640
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7800
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0600
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0620
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3610
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8750
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3520
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3580
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8980
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3660
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7410
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3590
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8060
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0600
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0630
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3600
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8920
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3650
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8620
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0630
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3620
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8220
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7570
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0630
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0680
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3600
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3670
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8700
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0630
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3560
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8820
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3610
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.7440
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0690
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0630
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3640
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8750
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0670
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3620
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8400
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0630
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3630
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8770
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3550
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8210
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0740
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0720
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3640
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8560
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0660
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+Entering Intel MKL PARDISO with N, NNZ =     65092        1018114
+      executing #OMP =     20
+
+ =================================================
+ =================================================
+Direct Sparse Solver (Intel MKL PARDISO)
+Matrix structure: Complex Non-Symmetric (Structurally Symmetric)
+Type of parallelism: OpenMP Multi-threaded Shared Memory
+
+ ****** ANALYSIS STEP (Phase 11) ********
+
+ Reordering based on METIS / Minimum Degree algorithm
+ Average density of rows/columns =   16
+Leaving analysis phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (18) Number of nonzeros in factors (estim) =            40186948
+ -- (15) Symbolic memory required (MB, est.)   =                 811
+ -- (16) Numerical memory required (MB, est.)  =                 811
+ ELAPSED TIME IN ANALYSIS DRIVER               =              0.3620
+
+ ****** FACTORIZATION STEP (Phase 22) ********
+
+Leaving factorization phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ -- (14) Memory effectively used (MB)          =                 811
+ -- (18) Number of nonzeros in LU factors      =            40186948
+ RINFOG(1) Operations during elimination (est.)=         2.61215E+09
+ ELAPSED TIME IN FACTORIZATION DRIVER          =              0.8400
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0650
+
+ ****** SOLVE & SOLUTION STEP (Phase 33) ********
+
+Leaving solve phase with  ...
+INFOG(1)                                       =               0
+INFOG(2)                                       =               0
+ ELAPSED TIME IN SOLVE DRIVER                  =              0.0640

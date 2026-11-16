@@ -1,0 +1,79 @@
+[
+  {
+    "step_size": 0.1,
+    "step_str": "1.0e-01",
+    "central_fd": 182267.70533050454,
+    "forward_fd": 491282.72346481826,
+    "exact_adjoint": 182076.54526272445,
+    "cd_relative_error": 0.0010498884823646971,
+    "fwd_relative_error": 1.6982208101319678,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0
+  },
+  {
+    "step_size": 0.01,
+    "step_str": "1.0e-02",
+    "central_fd": 182078.45689573005,
+    "forward_fd": 212979.29475488781,
+    "exact_adjoint": 182076.54526272445,
+    "cd_relative_error": 1.0499062374234965e-05,
+    "fwd_relative_error": 0.16972394466059718,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0
+  },
+  {
+    "step_size": 0.001,
+    "step_str": "1.0e-03",
+    "central_fd": 182076.56487386703,
+    "forward_fd": 185166.64810714428,
+    "exact_adjoint": 182076.54526272445,
+    "cd_relative_error": 1.0770823088412199e-07,
+    "fwd_relative_error": 0.016971449232854326,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0
+  },
+  {
+    "step_size": 0.0001,
+    "step_str": "1.0e-04",
+    "central_fd": 182076.54978585197,
+    "forward_fd": 182385.56331722066,
+    "exact_adjoint": 182076.54526272445,
+    "cd_relative_error": 2.4841901014085797e-08,
+    "fwd_relative_error": 0.0016971875979430145,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0
+  },
+  {
+    "step_size": 1e-05,
+    "step_str": "1.0e-05",
+    "central_fd": 182076.45231741478,
+    "forward_fd": 182107.40081558467,
+    "exact_adjoint": 182076.54526272445,
+    "cd_relative_error": 5.104738204576716e-07,
+    "fwd_relative_error": 0.00016946473152647427,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0
+  },
+  {
+    "step_size": 1e-06,
+    "step_str": "1.0e-06",
+    "central_fd": 182076.17495500017,
+    "forward_fd": 182079.10828641616,
+    "exact_adjoint": 182076.54526272445,
+    "cd_relative_error": 2.0338024524151727e-06,
+    "fwd_relative_error": 1.4076627431653096e-05,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0
+  },
+  {
+    "step_size": 1e-07,
+    "step_str": "1.0e-07",
+    "central_fd": 182074.4741417002,
+    "forward_fd": 182074.6238809079,
+    "exact_adjoint": 182076.54526272445,
+    "cd_relative_error": 1.1375001767912551e-05,
+    "fwd_relative_error": 1.0552604750856724e-05,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0
+  }
+]
