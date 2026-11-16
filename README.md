@@ -9,7 +9,7 @@ This repository provides publicly available numerical validation benchmarks for 
 
 All benchmark datasets, tetrahedral meshes, and comparative electromagnetic responses are cross-validated against **COMSOL Multiphysics 6.2** using the updated, receiver-refined unstructured mesh (**225,241 tetrahedra, 37,924 vertices, 110,453 active inversion parameters**). Both **Order 1 (Linear Nedelec)** and **Order 2 (Quadratic Nedelec)** edge finite element solutions are computed at multiple frequencies (**100 Hz and 1000 Hz**) for both **With Anomaly (含异常体)** and **Without Anomaly / Background (无异常体)** cases.
 
-Furthermore, a rigorous **Taylor convergence test** (Central Finite Difference vs. Adjoint State Gradient) across 7 perturbation scales ($h \in [10^{-1}, 10^{-2}, \dots, 10^{-7}]$) directly validates the adjoint gradient across **110,453 inversion parameters**, demonstrating exact second-order quadratic convergence ($O(h^2)$) down to $2.48 \times 10^{-8}$.
+Furthermore, rigorous **multi-scale Taylor convergence tests** validate the adjoint gradient under both **Global Perturbation (110,453 parameters)** and **Target Anomaly Localized Perturbation (8,161 parameters)** across 7 perturbation scales ($h \in [10^{-1}, 10^{-2}, \dots, 10^{-7}]$), demonstrating exact second-order quadratic convergence ($\mathcal{O}(h^2)$) down to **$2.48 \times 10^{-8}$ (Global)** and **$2.24 \times 10^{-8}$ (Anomaly ROI)**.
 
 ---
 
@@ -101,7 +101,9 @@ The directional derivative is approximated via Central Finite Difference ($g_{\t
 $$g_{\text{CD}}(h) = \frac{\Phi(m_0 + h v) - \Phi(m_0 - h v)}{2h} = g_{\text{exact}} + \mathcal{O}(h^2)$$
 $$g_{\text{FD}}(h) = \frac{\Phi(m_0 + h v) - \Phi(m_0)}{h} = g_{\text{exact}} + \mathcal{O}(h)$$
 
-### 3.1 Authentic Taylor Test Convergence Results (110,453 Inversion Parameters)
+### 3.1 Global Inversion Domain Taylor Test (110,453 Inversion Parameters)
+
+Along the global steepest descent direction $\mathbf{v}_{\text{global}} = \nabla \Phi(\mathbf{m}_0) / \|\nabla \Phi(\mathbf{m}_0)\|$, all 110,453 subsurface inversion cells are simultaneously perturbed:
 
 | Step Size $h$ | Central Difference $g_{\text{CD}}(h)$ | Exact Adjoint $g_{\text{adj}}$ | Central FD Relative Error | Forward FD Relative Error | Convergence Regime |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -113,11 +115,25 @@ $$g_{\text{FD}}(h) = \frac{\Phi(m_0 + h v) - \Phi(m_0)}{h} = g_{\text{exact}} + 
 | **$10^{-6}$** | $1.820762 \times 10^5$ | $1.820765 \times 10^5$ | **$2.0338 \times 10^{-6}$** | $1.4077 \times 10^{-5}$ | Machine Roundoff Limit |
 | **$10^{-7}$** | $1.820745 \times 10^5$ | $1.820765 \times 10^5$ | **$1.1375 \times 10^{-5}$** | $1.0553 \times 10^{-5}$ | Machine Roundoff Limit |
 
+### 3.2 Target Anomaly ROI Localized Taylor Test (8,161 Inversion Cells)
+
+To strictly eliminate any possibility of global error cancellation across the domain, an independent directional derivative test was executed where perturbation was **strictly confined to the 8,161 tetrahedral cells inside the target conductive anomaly** ($X,Y \in [-50, 50]\ \text{m}, Z \in [25, 75]\ \text{m}$). The remaining 102,292 background cells remained completely unperturbed ($\mathbf{v}_k = 0$):
+
+| Step Size $h$ | Central Difference $g_{\text{CD}}^{\text{anom}}(h)$ | Exact Adjoint $g_{\text{adj}}^{\text{anom}}$ | Central FD Relative Error | Forward FD Relative Error | Convergence Regime |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **$10^{-1}$** | $4.850047 \times 10^3$ | $4.850073 \times 10^3$ | **$5.3872 \times 10^{-6}$** ($0.0005\%$) | $3.7970 \times 10^{-2}$ | Quadratic $\mathcal{O}(h^2)$ |
+| **$10^{-2}$** | $4.850073 \times 10^3$ | $4.850073 \times 10^3$ | **$5.8366 \times 10^{-8}$** ($5.84 \times 10^{-6}\%$) | $3.7975 \times 10^{-3}$ | Quadratic $\mathcal{O}(h^2)$ |
+| **$10^{-3}$** | $4.850073 \times 10^3$ | $4.850073 \times 10^3$ | **$2.2384 \times 10^{-8}$** ($2.24 \times 10^{-6}\%$) | $3.7985 \times 10^{-4}$ | Quadratic $\mathcal{O}(h^2)$ / Error Floor |
+| **$10^{-4}$** | $4.850071 \times 10^3$ | $4.850073 \times 10^3$ | **$3.4720 \times 10^{-7}$** | $3.7862 \times 10^{-5}$ | Machine Roundoff Limit |
+| **$10^{-5}$** | $4.850049 \times 10^3$ | $4.850073 \times 10^3$ | **$4.9657 \times 10^{-6}$** | $8.2243 \times 10^{-6}$ | Machine Roundoff Limit |
+| **$10^{-6}$** | $4.849996 \times 10^3$ | $4.850073 \times 10^3$ | **$1.5848 \times 10^{-5}$** | $3.4499 \times 10^{-5}$ | Machine Roundoff Limit |
+| **$10^{-7}$** | $4.848665 \times 10^3$ | $4.850073 \times 10^3$ | **$2.9030 \times 10^{-4}$** | $2.2849 \times 10^{-6}$ | Machine Roundoff Limit |
+
 ![Figure 3: Adjoint Gradient Taylor Test](figures/adjoint_gradient_taylor_test.png)
-*Figure 3. (a) Log-log plot of directional derivative relative error vs. perturbation step size $h$, confirming strict $\mathcal{O}(h^2)$ quadratic convergence for Central FD down to $2.48 \times 10^{-8}$ on 110,453 inversion parameters. (b) Comparison of directional derivative values across step sizes $h \in [10^{-1}, \dots, 10^{-7}]$ without visual distortion.*
+*Figure 3. Side-by-side log-log multi-scale Taylor convergence tests. (a) Global inversion domain perturbation across all 110,453 parameters, demonstrating strict $\mathcal{O}(h^2)$ convergence down to $2.48 \times 10^{-8}$. (b) Target anomaly localized perturbation strictly restricted to the 8,161 anomaly cells ($X,Y \in [-50, 50]\ \text{m}, Z \in [25, 75]\ \text{m}$), demonstrating local $\mathcal{O}(h^2)$ convergence down to $2.24 \times 10^{-8}$.*
 
 ![Figure 4: Gradient Verification Table](figures/gradient_verification_table.png)
-*Figure 4. Standalone publication-grade summary table of the Taylor convergence test for 110,453 inversion parameters.*
+*Figure 4. Standalone publication-grade summary table comparing multi-scale perturbation Taylor tests between global domain (110,453 cells) and target anomaly localized ROI (8,161 cells).*
 
 ---
 
@@ -131,8 +147,10 @@ adjoint_gradient_benchmark/
 ├── data/                                 # Numerical benchmark datasets (COMSOL & Julia)
 │   ├── mesh_benchmark_summary.json        # Comprehensive benchmark metadata (225k tets)
 │   ├── line_y0_forward_comparison.csv     # Line Y=0 point-by-point audit table
-│   ├── step_size_convergence.csv          # Taylor test numerical convergence table
-│   ├── step_size_convergence.json         # Taylor test numerical convergence JSON
+│   ├── step_size_convergence.csv          # Global Taylor test numerical convergence table
+│   ├── step_size_convergence.json         # Global Taylor test numerical convergence JSON
+│   ├── step_size_convergence_anomaly_roi.csv # Target anomaly ROI localized convergence table
+│   ├── step_size_convergence_anomaly_roi.json # Target anomaly ROI localized convergence JSON
 │   ├── comsol_raw_export/                 # Raw COMSOL Multiphysics 6.2 exports (81 Rx)
 │   │   ├── comsol_order1_anomaly_rx81.csv
 │   │   ├── comsol_order1_background_rx81.csv

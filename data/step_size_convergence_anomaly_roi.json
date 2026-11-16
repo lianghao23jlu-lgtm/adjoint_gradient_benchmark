@@ -1,0 +1,86 @@
+[
+  {
+    "step_size": 0.1,
+    "step_str": "1.0e-01",
+    "central_fd": 4850.046912757971,
+    "forward_fd": 5034.229928989516,
+    "exact_adjoint": 4850.073041311851,
+    "cd_relative_error": 5.38724956457643e-06,
+    "fwd_relative_error": 0.03796992047522951,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0,
+    "roi_cell_count": 8161
+  },
+  {
+    "step_size": 0.01,
+    "step_str": "1.0e-02",
+    "central_fd": 4850.07275823009,
+    "forward_fd": 4868.49100884574,
+    "exact_adjoint": 4850.073041311851,
+    "cd_relative_error": 5.8366494430630756e-08,
+    "fwd_relative_error": 0.003797461889132182,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0,
+    "roi_cell_count": 8161
+  },
+  {
+    "step_size": 0.001,
+    "step_str": "1.0e-03",
+    "central_fd": 4850.072932749754,
+    "forward_fd": 4851.9153373199515,
+    "exact_adjoint": 4850.073041311851,
+    "cd_relative_error": 2.2383600429703168e-08,
+    "fwd_relative_error": 0.0003798491264787983,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0,
+    "roi_cell_count": 8161
+  },
+  {
+    "step_size": 0.0001,
+    "step_str": "1.0e-04",
+    "central_fd": 4850.071357359411,
+    "forward_fd": 4850.256675272249,
+    "exact_adjoint": 4850.073041311851,
+    "cd_relative_error": 3.472014597081446e-07,
+    "fwd_relative_error": 3.786210204128934e-05,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0,
+    "roi_cell_count": 8161
+  },
+  {
+    "step_size": 1e-05,
+    "step_str": "1.0e-05",
+    "central_fd": 4850.048957450781,
+    "forward_fd": 4850.0331526156515,
+    "exact_adjoint": 4850.073041311851,
+    "cd_relative_error": 4.9656697671707134e-06,
+    "fwd_relative_error": 8.224349583929583e-06,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0,
+    "roi_cell_count": 8161
+  },
+  {
+    "step_size": 1e-06,
+    "step_str": "1.0e-06",
+    "central_fd": 4849.996177654248,
+    "forward_fd": 4850.240366067737,
+    "exact_adjoint": 4850.073041311851,
+    "cd_relative_error": 1.584793815441353e-05,
+    "fwd_relative_error": 3.44994301036863e-05,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0,
+    "roi_cell_count": 8161
+  },
+  {
+    "step_size": 1e-07,
+    "step_str": "1.0e-07",
+    "central_fd": 4848.6650484846905,
+    "forward_fd": 4850.061959587038,
+    "exact_adjoint": 4850.073041311851,
+    "cd_relative_error": 0.00029030342742622023,
+    "fwd_relative_error": 2.2848573039775914e-06,
+    "theoretical_order_cd": 2.0,
+    "theoretical_order_fwd": 1.0,
+    "roi_cell_count": 8161
+  }
+]

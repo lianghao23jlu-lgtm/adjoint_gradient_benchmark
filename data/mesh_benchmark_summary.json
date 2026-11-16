@@ -83,11 +83,17 @@
     }
   },
   "taylor_test_summary": {
-    "inversion_dimension": 110453,
-    "order": "O(h^2) quadratic convergence down to 2.48e-8 at h=1e-4",
-    "step_h_1e-1_rel_err": 0.0010499,
-    "step_h_1e-2_rel_err": 1.0499e-05,
-    "step_h_1e-3_rel_err": 1.0771e-07,
-    "step_h_1e-4_rel_err": 2.4842e-08
+    "global_inversion_dimension": 110453,
+    "global_order": "O(h^2) quadratic convergence down to 2.48e-8 at h=1e-4",
+    "global_step_h_1e-1_rel_err": 0.0010499,
+    "global_step_h_1e-2_rel_err": 1.0499e-05,
+    "global_step_h_1e-3_rel_err": 1.0771e-07,
+    "global_step_h_1e-4_rel_err": 2.4842e-08,
+    "anomaly_roi_cells": 8161,
+    "anomaly_roi_order": "O(h^2) quadratic convergence down to 2.24e-8 at h=1e-3",
+    "anomaly_step_h_1e-1_rel_err": 5.3872e-06,
+    "anomaly_step_h_1e-2_rel_err": 5.8366e-08,
+    "anomaly_step_h_1e-3_rel_err": 2.2384e-08,
+    "anomaly_step_h_1e-4_rel_err": 3.4720e-07
   }
 }
