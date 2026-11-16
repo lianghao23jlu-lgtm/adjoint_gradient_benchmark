@@ -5,7 +5,7 @@
 [![Forward Error](https://img.shields.io/badge/Mean%20Forward%20Error-1.05%25%20--%201.17%25-brightgreen.svg)]()
 [![Mesh Elements](https://img.shields.io/badge/Tetrahedra-225%2C241-orange.svg)]()
 
-This repository provides an open, fully reproducible, submission-grade benchmark for **GeoEMFEM** (a high-performance 3D Controlled-Source Electromagnetic finite element forward modeling and adjoint-state inversion framework implemented in Julia).
+This repository provides publicly available numerical validation benchmarks for **GeoEMFEM** (a high-performance 3D Controlled-Source Electromagnetic finite element forward modeling and adjoint-state inversion framework implemented in Julia).
 
 All benchmark datasets, tetrahedral meshes, and comparative electromagnetic responses are cross-validated against **COMSOL Multiphysics 6.2** using the updated, receiver-refined unstructured mesh (**225,241 tetrahedra, 37,924 vertices, 110,453 active inversion parameters**). Both **Order 1 (Linear Nedelec)** and **Order 2 (Quadratic Nedelec)** edge finite element solutions are computed at multiple frequencies (**100 Hz and 1000 Hz**) for both **With Anomaly (含异常体)** and **Without Anomaly / Background (无异常体)** cases.
 
@@ -126,7 +126,7 @@ $$g_{\text{FD}}(h) = \frac{\Phi(m_0 + h v) - \Phi(m_0)}{h} = g_{\text{exact}} + 
 ```
 adjoint_gradient_benchmark/
 ├── .gitignore
-├── LICENSE                               # Open-source MIT License
+├── LICENSE                               # MIT License
 ├── README.md                              # Comprehensive benchmark report
 ├── data/                                 # Numerical benchmark datasets (COMSOL & Julia)
 │   ├── mesh_benchmark_summary.json        # Comprehensive benchmark metadata (225k tets)
