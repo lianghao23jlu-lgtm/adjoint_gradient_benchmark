@@ -7,7 +7,7 @@
 
 This repository provides publicly available numerical validation benchmarks for **GeoEMFEM** (a high-performance 3D Controlled-Source Electromagnetic finite element forward modeling and adjoint-state inversion framework implemented in Julia).
 
-All benchmark datasets, tetrahedral meshes, and comparative electromagnetic responses are cross-validated against **COMSOL Multiphysics 6.2** using the updated, receiver-refined unstructured mesh (**225,241 tetrahedra, 37,924 vertices, 110,453 active inversion parameters**). Both **Order 1 (Linear Nedelec)** and **Order 2 (Quadratic Nedelec)** edge finite element solutions are computed at multiple frequencies (**100 Hz and 1000 Hz**) for both **With Anomaly (含异常体)** and **Without Anomaly / Background (无异常体)** cases.
+All benchmark datasets, tetrahedral meshes, and comparative electromagnetic responses are cross-validated against **COMSOL Multiphysics 6.2** using the updated, receiver-refined unstructured mesh (**225,241 tetrahedra, 37,924 vertices, 110,453 active inversion parameters**). Both **Order 1 (Linear Nedelec)** and **Order 2 (Quadratic Nedelec)** edge finite element solutions are computed at multiple frequencies (**100 Hz and 1000 Hz**) for both **With Anomaly** and **Without Anomaly / Background** cases.
 
 Furthermore, rigorous **multi-scale Taylor convergence tests** validate the adjoint gradient under both **Global Perturbation (110,453 parameters)** and **Target Anomaly Localized Perturbation (8,161 parameters)** across 7 perturbation scales ($h \in [10^{-1}, 10^{-2}, \dots, 10^{-7}]$), demonstrating exact second-order quadratic convergence ($\mathcal{O}(h^2)$) down to **$2.48 \times 10^{-8}$ (Global)** and **$2.24 \times 10^{-8}$ (Anomaly ROI)**.
 
@@ -19,7 +19,7 @@ The benchmark represents a canonical 3D CSEM exploration scenario featuring a co
 
 | Component / Parameter | Specification | Value & Physical Unit |
 | :--- | :--- | :--- |
-| **Model Type** | 3D Whole Space (全空间模型) | Pure homogeneous medium, No air layer |
+| **Model Type** | 3D Whole Space | Pure homogeneous medium, No air layer |
 | **Background Whole Space** | Uniform host medium | $\sigma_0 = 0.01\ \text{S/m}\ (100\ \Omega\cdot\text{m})$ |
 | **Target Anomaly Body** | Bounded cuboid block | $100\ \text{m} \times 100\ \text{m} \times 50\ \text{m}$ |
 | **Anomaly Center Coordinates** | $(X_0, Y_0, Z_0)$ | $(0.0, 0.0, 50.0)\ \text{m}$ (Center depth: $50\ \text{m}$) |
