@@ -128,11 +128,7 @@ adjoint_gradient_benchmark/
 ├── .gitignore
 ├── LICENSE                               # Open-source MIT License
 ├── README.md                              # Comprehensive benchmark report
-├── run.bat                                # Windows 1-click execution script
-├── run.ps1                                # PowerShell 1-click execution script
-├── verify_benchmark.exe                   # Standalone compiled verification utility
-├── verify_benchmark_cli.py                # Standalone CLI Python script
-├── data/
+├── data/                                 # Numerical benchmark datasets (COMSOL & Julia)
 │   ├── mesh_benchmark_summary.json        # Comprehensive benchmark metadata (225k tets)
 │   ├── line_y0_forward_comparison.csv     # Line Y=0 point-by-point audit table
 │   ├── step_size_convergence.csv          # Taylor test numerical convergence table
@@ -150,7 +146,7 @@ adjoint_gradient_benchmark/
 │       ├── user_background.attribute      # Background domain attribute mapping
 │       ├── julia_forward_anomaly_rx81.csv # Julia 81-station forward solution (Anomaly)
 │       └── julia_forward_background_rx81.csv # Julia 81-station forward solution (Background)
-├── model/
+├── model/                                # Tetrahedral mesh files & model notes
 │   ├── COMSOL_MODEL_NOTES.md              # Detailed mesh & domain geometry notes
 │   ├── DL_invtest_anomaly.ele             # Inversion test model mesh elements
 │   ├── DL_invtest_anomaly.node            # Inversion test model mesh nodes
@@ -165,42 +161,4 @@ adjoint_gradient_benchmark/
     ├── adjoint_gradient_taylor_test.pdf
     ├── gradient_verification_table.png
     └── gradient_verification_table.pdf
-```
-
----
-
-## 5. One-Click Reproduction Instructions
-
-This repository is self-contained. Anyone can immediately verify all numerical tables and re-render all 4 high-resolution figures without needing Julia, COMSOL, or Python installed.
-
-### Option A: Direct Executable (Recommended for Windows)
-Double-click `run.bat` or run:
-```cmd
-.\run.bat
-```
-or via PowerShell:
-```powershell
-.\run.ps1
-```
-The standalone executable `verify_benchmark.exe` executes in seconds and verifies all benchmark tables while re-rendering all 4 publication figures into `.\figures\`.
-
-### Option B: Using Python (Cross-Platform)
-If Python 3.8+ is available with `numpy`, `pandas`, and `matplotlib`:
-```bash
-python verify_benchmark_cli.py
-```
-
----
-
-## 6. Citation
-
-If you use this benchmark suite or GeoEMFEM in your academic work, please cite:
-
-```bibtex
-@article{GeoEMFEM2026,
-  title={GeoEMFEM: A High-Performance 3D CSEM Modeling and Adjoint Inversion Framework},
-  author={Ghent University Geo-Electromagnetics Team},
-  journal={Computers & Geosciences / Geophysics},
-  year={2026}
-}
 ```
